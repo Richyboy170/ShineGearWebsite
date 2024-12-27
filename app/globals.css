@@ -1,0 +1,451 @@
+/* globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --custom-gold: #FFFF00;
+  --custom-blue: #4381C1;
+  --custom-dark-blue: #0064CB;
+  --custom-red: #FFD4CA;
+  --custom-green: #AAC0AF;
+  --custom-pink: #FFD5FF;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 48, 48, 48;
+    --custom-gold: #FFD700;
+    --custom-blue: #5B8EBD;
+    --custom-light-blue: #76b8ff;
+    --custom-dark-blue: #003E6B;
+    --custom-red: #FF7F7F;
+    --custom-green: #5F9EA0;
+    --custom-pink: #FFB6C1;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+    to bottom,
+    rgb(var(--background-start-rgb)),
+    rgb(var(--background-end-rgb))
+  );
+  font-family: 'Colonna MT', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Colonna MT';
+  src: url('/fonts/ColonnaMT.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bm hanna_tff';
+  src: url('/fonts/bm_hanna.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.bg-customGold {
+  background: linear-gradient(135deg, var(--custom-gold) 0%, #FFFF5B 100%);
+}
+
+.bg-customBlue {
+  background: linear-gradient(135deg, var(--custom-blue) 0%, #5993CF 100%);
+}
+
+.bg-customLightBlue {
+  background: linear-gradient(135deg, var(--custom-light-blue) 0%, #57a4f6 100%);
+}
+
+.bg-customDarkBlue {
+  background: linear-gradient(135deg, var(--custom-dark-blue) 0%, var(--custom-blue) 100%);
+}
+
+.bg-customRed {
+  background: linear-gradient(135deg, var(--custom-red) 0%, #FFB3A1 100%);
+}
+
+.bg-customGreen {
+  background: linear-gradient(135deg, var(--custom-green) 0%, #C1E1C1 100%);
+}
+
+.bg-customPink {
+  background: linear-gradient(135deg, var(--custom-pink) 0%, #FFB6C1 100%);
+}
+
+.border-customDarkBlue {
+  border-color: var(--custom-dark-blue);
+}
+
+.border-customGold {
+  border-color: var(--custom-gold);
+}
+
+.text-customGold {
+  color: var(--custom-gold);
+}
+
+.text-customGreen {
+  color: var(--custom-green);
+}
+
+.text-customBlue {
+  color: var(--custom-blue);
+}
+
+.text-customDarkBlue {
+  color: var(--custom-dark-blue);
+}
+
+.text-customPink {
+  color: var(--custom-pink);
+}
+
+.text-customRed {
+  color: var(--custom-red);
+}
+
+.text-customDarkRed {
+  color: #4c1c00;
+}
+
+.text-customDarkGold {
+  color: #483f33;
+}
+
+.text-customDarkGreen {
+  color: #61AF3D;
+}
+
+.link-border {
+  border-top: 1px solid var(--custom-dark-blue); /* Indigo-500 */
+}
+
+.bg-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#brand-logo-container {
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+#brand-logo-container.sucked {
+  transform: scale(0.1);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.ad-content {
+  max-height: 50px;
+  animation: pop-up 0.5s forwards;
+}
+
+.navbar-logo-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-logo {
+  cursor: pointer;
+  max-width: 100px; /* Ensure the logo doesn't expand beyond its intended size */
+  max-height: 50px;
+}
+
+.ad-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.animated-image {
+  animation: pop-up 1s ease-in-out;
+}
+
+@keyframes pop-up {
+  from {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+.circle-animation {
+  animation: pulse 2s infinite;
+}
+
+/* Testimonials globals.css */
+
+.testimonialsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  background: var(--custom-blue);
+}
+
+.heading {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.circlesWrapper {
+  width: 80%;
+  max-width: 800px;
+  overflow-x: auto;
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  white-space: nowrap;
+  margin-bottom: 40px;
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #D2B48C transparent; /* For Firefox */
+}
+
+.circlesWrapper::-webkit-scrollbar {
+  height: 4px; /* Adjust the height of the scrollbar */
+}
+
+.circlesWrapper::-webkit-scrollbar-track {
+  background: transparent; /* Make the track transparent */
+}
+
+.circlesWrapper::-webkit-scrollbar-thumb {
+  background-color: #D2B48C; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners for the scrollbar thumb */
+}
+
+.circlesContainer {
+  display: flex;
+  gap: 20px;
+  height: 120px; /* Ensure enough height to avoid vertical scroll */
+  align-items: center;
+  justify-content: center;
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.circle.active {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.circleContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circleContent p {
+  margin: 0;
+}
+
+.cardContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 600px;
+  border: 1px solid #ddd;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.imageContainer {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.imageContainer img {
+  max-width: 100%;
+  max-height: 100%;
+  border: 5px solid #ddd;
+  border-radius: 10px;
+}
+
+.instagram {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Add the following CSS to your globals.css */
+
+.link-border {
+  border-top: 2px solid var(--custom-dark-blue);
+}
+
+.link-active {
+  background-color: var(--custom-light-blue);
+  color: var(--custom-gold);
+  border-color: var(--custom-gold);
+  z-index: 20;
+}
+
+.selected-link {
+  z-index: 10; /* Ensure the selected link is on top */
+}
+
+/* Ensure border between slots is only one line */
+.flex > :not(:last-child) {
+  border-bottom-width: 1px;
+}
+
+/* globals.css */
+
+/* Example: Ensuring no borders/margins affect the "My Account" text */
+.no-border {
+  border: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.ticket-card {
+  background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  height: 200px;
+}
+
+.ticket-card::before,
+.ticket-card::after {
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.ticket-card::before {
+  top: -20px;
+  left: -20px;
+}
+
+.ticket-card::after {
+  bottom: -20px;
+  right: -20px;
+}
+
+.ticket-card img {
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.ticket-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.ticket-points {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #1e3a8a;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 80px;
+}
+
+.ticket-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.ticket-image {
+  flex-grow: 1;
+  position: relative;
+}
+
+.ticket-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0 15px 15px 0;
+}
+
+.ticket-info {
+  padding: 10px;
+  color: #61AF3D;
+}
+
+/* globals.css */
+
+.font-bm-hanna {
+  font-family: 'bm hanna_tff';
+}

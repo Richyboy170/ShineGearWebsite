@@ -1,0 +1,107 @@
+[
+  {
+    "id": "oatmeal-t-shirt",
+    "image": "/images/oatmeal.jpg",
+    "hoverImage": "/images/Soatmeal.jpg",
+    "shoppingCartImage": "/images/SSoatmeal.png",
+    "name": "Oatmeal T-Shirt",
+    "price": 50,
+    "link": "/Products/oatmeal-t-shirt",
+    "category": "Pastel",
+    "description": "A comfortable oatmeal-colored t-shirt perfect for casual wear.",
+    "reviews": [
+      { "user": "John Doe", "comment": "Great quality and fit!", "rating": 5 },
+      { "user": "Jane Smith", "comment": "Love the color.", "rating": 4 }
+    ]
+  },
+  {
+    "id": "sky-t-shirt",
+    "image": "/images/sky.jpg",
+    "hoverImage": "/images/Ssky.jpg",
+    "shoppingCartImage": "/images/SSsky.png",
+    "name": "Sky T-Shirt",
+    "price": 50,
+    "link": "/Products/sky-t-shirt",
+    "category": "Pastel",
+    "description": "A soft sky-blue t-shirt that matches any outfit.",
+    "reviews": [
+      { "user": "Alice Johnson", "comment": "Very comfortable.", "rating": 5 },
+      { "user": "Bob Brown", "comment": "Nice color but a bit tight.", "rating": 3 }
+    ]
+  },
+  {
+    "id": "pink-t-shirt",
+    "image": "/images/pink.jpg",
+    "hoverImage": "/images/Spink.jpg",
+    "shoppingCartImage": "/images/SSpink.png",
+    "name": "Pink T-Shirt",
+    "price": 50,
+    "link": "/Products/pink-t-shirt",
+    "category": "Pastel",
+    "description": "A stylish pink t-shirt for everyday use.",
+    "reviews": [
+      { "user": "Charlie Lee", "comment": "Good value for money.", "rating": 4 },
+      { "user": "Dana White", "comment": "Love the fit and color!", "rating": 5 }
+    ]
+  },
+  {
+    "id": "white-t-shirt",
+    "image": "/images/white.jpg",
+    "hoverImage": "/images/Swhite.jpg",
+    "shoppingCartImage": "/images/SSwhite.png",
+    "name": "White T-Shirt",
+    "price": 50,
+    "link": "/Products/white-t-shirt",
+    "category": "Pastel",
+    "description": "A classic white t-shirt that goes with anything.",
+    "reviews": [
+      { "user": "Emily Davis", "comment": "A bit see-through but comfortable.", "rating": 3 },
+      { "user": "Frank Harris", "comment": "Perfect for everyday wear.", "rating": 5 }
+    ]
+  },
+  {
+    "id": "product2",
+    "image": "/images/dull.png",
+    "hoverImage": "/images/whoCut.png",
+    "shoppingCartImage": "/images/dull.png",
+    "name": "Product 2",
+    "price": 200,
+    "link": "/Products/product2",
+    "category": "Recommended",
+    "description": "An advanced product with premium features.",
+    "reviews": [
+      { "user": "Grace Clark", "comment": "Worth the price.", "rating": 5 },
+      { "user": "Henry Scott", "comment": "Excellent product.", "rating": 4 }
+    ]
+  },
+  {
+    "id": "product3",
+    "image": "/images/dull.png",
+    "hoverImage": "/images/whoCut.png",
+    "shoppingCartImage": "/images/dull.png",
+    "name": "Product 3",
+    "price": 300,
+    "link": "/Products/product3",
+    "category": "Recommended",
+    "description": "A top-of-the-line product with exceptional quality.",
+    "reviews": [
+      { "user": "Ivy Lopez", "comment": "Highly recommend.", "rating": 5 },
+      { "user": "Jack Green", "comment": "A bit pricey but worth it.", "rating": 4 }
+    ]
+  },
+  {
+    "id": "product1",
+    "image": "/images/dull.png",
+    "hoverImage": "/images/whoCut.png",
+    "shoppingCartImage": "/images/dull.png",
+    "name": "Product 1",
+    "price": 100,
+    "link": "/Products/product1",
+    "category": "All",
+    "description": "A reliable product for everyday use.",
+    "reviews": [
+      { "user": "Karen Hill", "comment": "Meets my needs.", "rating": 4 },
+      { "user": "Liam King", "comment": "Good quality.", "rating": 4 }
+    ]
+  }
+]

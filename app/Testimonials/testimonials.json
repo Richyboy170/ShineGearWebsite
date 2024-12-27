@@ -1,0 +1,328 @@
+[
+    {
+      "product": "Oatmeal",
+      "color": "#D2B48C",
+      "image": "/images/oatmeal.jpg",
+      "phrase": "I love the Oatmeal color! It's so soft and comfy.",
+      "name": "John Doe",
+      "instagram": "@john_doe"
+    },
+    {
+      "product": "Oatmeal",
+      "color": "#D2B48C",
+      "image": "/images/oatmeal.jpg",
+      "phrase": "I love the Oatmeal color! It's so soft and Gucci.",
+      "name": "John Jay",
+      "instagram": "@john_doe"
+    },
+    {
+      "product": "Sky",
+      "color": "#87CEEB",
+      "image": "/images/sky.jpg",
+      "phrase": "The Sky color is my favorite! It's perfect for summer.",
+      "name": "Jane Smith",
+      "instagram": "@jane_smith"
+    },
+    {
+      "product": "Pink",
+      "color": "#FFC0CB",
+      "image": "/images/pink.jpg",
+      "phrase": "The Pink t-shirt is so cute! I wear it all the time.",
+      "name": "Emily Davis",
+      "instagram": "@emily_davis"
+    },
+    {
+      "product": "White",
+      "color": "#FFFFFF",
+      "image": "/images/white.jpg",
+      "phrase": "The White t-shirt goes with everything. Great quality!",
+      "name": "Michael Brown",
+      "instagram": "@michael_brown"
+    },
+
+    {
+      "product": "Oatmeal",
+      "color": "#D2B48C",
+      "image": "/images/oatmeal.jpg",
+      "phrase": "I love the Oatmeal color! It's so soft and comfy.",
+      "name": "John Doe",
+      "instagram": "@john_doe"
+    },
+    {
+      "product": "Oatmeal",
+      "color": "#D2B48C",
+      "image": "/images/oatmeal.jpg",
+      "phrase": "I love the Oatmeal color! It's so soft and Gucci.",
+      "name": "John Jay",
+      "instagram": "@john_doe"
+    },
+    {
+      "product": "Sky",
+      "color": "#87CEEB",
+      "image": "/images/sky.jpg",
+      "phrase": "The Sky color is my favorite! It's perfect for summer.",
+      "name": "Jane Smith",
+      "instagram": "@jane_smith"
+    },
+    {
+      "product": "Pink",
+      "color": "#FFC0CB",
+      "image": "/images/pink.jpg",
+      "phrase": "The Pink t-shirt is so cute! I wear it all the time.",
+      "name": "Emily Davis",
+      "instagram": "@emily_davis"
+    },
+    {
+      "product": "White",
+      "color": "#FFFFFF",
+      "image": "/images/white.jpg",
+      "phrase": "The White t-shirt goes with everything. Great quality!",
+      "name": "Michael Brown",
+      "instagram": "@michael_brown"
+    },
+        {
+      "product": "Oatmeal",
+      "color": "#D2B48C",
+      "image": "/images/oatmeal.jpg",
+      "phrase": "I love the Oatmeal color! It's so soft and comfy.",
+      "name": "John Doe",
+      "instagram": "@john_doe"
+    },
+    {
+      "product": "Oatmeal",
+      "color": "#D2B48C",
+      "image": "/images/oatmeal.jpg",
+      "phrase": "I love the Oatmeal color! It's so soft and Gucci.",
+      "name": "John Jay",
+      "instagram": "@john_doe"
+    },
+    {
+      "product": "Sky",
+      "color": "#87CEEB",
+      "image": "/images/sky.jpg",
+      "phrase": "The Sky color is my favorite! It's perfect for summer.",
+      "name": "Jane Smith",
+      "instagram": "@jane_smith"
+    },
+    {
+      "product": "Pink",
+      "color": "#FFC0CB",
+      "image": "/images/pink.jpg",
+      "phrase": "The Pink t-shirt is so cute! I wear it all the time.",
+      "name": "Emily Davis",
+      "instagram": "@emily_davis"
+    },
+    {
+      "product": "White",
+      "color": "#FFFFFF",
+      "image": "/images/white.jpg",
+      "phrase": "The White t-shirt goes with everything. Great quality!",
+      "name": "Michael Brown",
+      "instagram": "@michael_brown"
+    },
+
+    {
+      "product": "Oatmeal",
+      "color": "#D2B48C",
+      "image": "/images/oatmeal.jpg",
+      "phrase": "I love the Oatmeal color! It's so soft and comfy.",
+      "name": "John Doe",
+      "instagram": "@john_doe"
+    },
+    {
+      "product": "Oatmeal",
+      "color": "#D2B48C",
+      "image": "/images/oatmeal.jpg",
+      "phrase": "I love the Oatmeal color! It's so soft and Gucci.",
+      "name": "John Jay",
+      "instagram": "@john_doe"
+    },
+    {
+      "product": "Sky",
+      "color": "#87CEEB",
+      "image": "/images/sky.jpg",
+      "phrase": "The Sky color is my favorite! It's perfect for summer.",
+      "name": "Jane Smith",
+      "instagram": "@jane_smith"
+    },
+    {
+      "product": "Pink",
+      "color": "#FFC0CB",
+      "image": "/images/pink.jpg",
+      "phrase": "The Pink t-shirt is so cute! I wear it all the time.",
+      "name": "Emily Davis",
+      "instagram": "@emily_davis"
+    },
+    {
+      "product": "White",
+      "color": "#FFFFFF",
+      "image": "/images/white.jpg",
+      "phrase": "The White t-shirt goes with everything. Great quality!",
+      "name": "Michael Brown",
+      "instagram": "@michael_brown"
+    },
+    {
+      "product": "Oatmeal",
+      "color": "#D2B48C",
+      "image": "/images/oatmeal.jpg",
+      "phrase": "I love the Oatmeal color! It's so soft and comfy.",
+      "name": "John Doe",
+      "instagram": "@john_doe"
+    },
+    {
+      "product": "Oatmeal",
+      "color": "#D2B48C",
+      "image": "/images/oatmeal.jpg",
+      "phrase": "I love the Oatmeal color! It's so soft and Gucci.",
+      "name": "John Jay",
+      "instagram": "@john_doe"
+    },
+    {
+      "product": "Sky",
+      "color": "#87CEEB",
+      "image": "/images/sky.jpg",
+      "phrase": "The Sky color is my favorite! It's perfect for summer.",
+      "name": "Jane Smith",
+      "instagram": "@jane_smith"
+    },
+    {
+      "product": "Pink",
+      "color": "#FFC0CB",
+      "image": "/images/pink.jpg",
+      "phrase": "The Pink t-shirt is so cute! I wear it all the time.",
+      "name": "Emily Davis",
+      "instagram": "@emily_davis"
+    },
+    {
+      "product": "White",
+      "color": "#FFFFFF",
+      "image": "/images/white.jpg",
+      "phrase": "The White t-shirt goes with everything. Great quality!",
+      "name": "Michael Brown",
+      "instagram": "@michael_brown"
+    },
+
+    {
+      "product": "Oatmeal",
+      "color": "#D2B48C",
+      "image": "/images/oatmeal.jpg",
+      "phrase": "I love the Oatmeal color! It's so soft and comfy.",
+      "name": "John Doe",
+      "instagram": "@john_doe"
+    },
+    {
+      "product": "Oatmeal",
+      "color": "#D2B48C",
+      "image": "/images/oatmeal.jpg",
+      "phrase": "I love the Oatmeal color! It's so soft and Gucci.",
+      "name": "John Jay",
+      "instagram": "@john_doe"
+    },
+    {
+      "product": "Sky",
+      "color": "#87CEEB",
+      "image": "/images/sky.jpg",
+      "phrase": "The Sky color is my favorite! It's perfect for summer.",
+      "name": "Jane Smith",
+      "instagram": "@jane_smith"
+    },
+    {
+      "product": "Pink",
+      "color": "#FFC0CB",
+      "image": "/images/pink.jpg",
+      "phrase": "The Pink t-shirt is so cute! I wear it all the time.",
+      "name": "Emily Davis",
+      "instagram": "@emily_davis"
+    },
+    {
+      "product": "White",
+      "color": "#FFFFFF",
+      "image": "/images/white.jpg",
+      "phrase": "The White t-shirt goes with everything. Great quality!",
+      "name": "Michael Brown",
+      "instagram": "@michael_brown"
+    },
+        {
+      "product": "Oatmeal",
+      "color": "#D2B48C",
+      "image": "/images/oatmeal.jpg",
+      "phrase": "I love the Oatmeal color! It's so soft and comfy.",
+      "name": "John Doe",
+      "instagram": "@john_doe"
+    },
+    {
+      "product": "Oatmeal",
+      "color": "#D2B48C",
+      "image": "/images/oatmeal.jpg",
+      "phrase": "I love the Oatmeal color! It's so soft and Gucci.",
+      "name": "John Jay",
+      "instagram": "@john_doe"
+    },
+    {
+      "product": "Sky",
+      "color": "#87CEEB",
+      "image": "/images/sky.jpg",
+      "phrase": "The Sky color is my favorite! It's perfect for summer.",
+      "name": "Jane Smith",
+      "instagram": "@jane_smith"
+    },
+    {
+      "product": "Pink",
+      "color": "#FFC0CB",
+      "image": "/images/pink.jpg",
+      "phrase": "The Pink t-shirt is so cute! I wear it all the time.",
+      "name": "Emily Davis",
+      "instagram": "@emily_davis"
+    },
+    {
+      "product": "White",
+      "color": "#FFFFFF",
+      "image": "/images/white.jpg",
+      "phrase": "The White t-shirt goes with everything. Great quality!",
+      "name": "Michael Brown",
+      "instagram": "@michael_brown"
+    },
+
+    {
+      "product": "Oatmeal",
+      "color": "#D2B48C",
+      "image": "/images/oatmeal.jpg",
+      "phrase": "I love the Oatmeal color! It's so soft and comfy.",
+      "name": "John Doe",
+      "instagram": "@john_doe"
+    },
+    {
+      "product": "Oatmeal",
+      "color": "#D2B48C",
+      "image": "/images/oatmeal.jpg",
+      "phrase": "I love the Oatmeal color! It's so soft and Gucci.",
+      "name": "John Jay",
+      "instagram": "@john_doe"
+    },
+    {
+      "product": "Sky",
+      "color": "#87CEEB",
+      "image": "/images/sky.jpg",
+      "phrase": "The Sky color is my favorite! It's perfect for summer.",
+      "name": "Jane Smith",
+      "instagram": "@jane_smith"
+    },
+    {
+      "product": "Pink",
+      "color": "#FFC0CB",
+      "image": "/images/pink.jpg",
+      "phrase": "The Pink t-shirt is so cute! I wear it all the time.",
+      "name": "Emily Davis",
+      "instagram": "@emily_davis"
+    },
+    {
+      "product": "White",
+      "color": "#FFFFFF",
+      "image": "/images/white.jpg",
+      "phrase": "The White t-shirt goes with everything. Great quality!",
+      "name": "Michael Brown",
+      "instagram": "@michael_brown"
+    }
+  ]
+  
+  

@@ -1,0 +1,511 @@
+/* globals.css */
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@font-face {
+  font-family: 'Colonna MT';
+  src: url('/fonts/ColonnaMT.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bm hanna_tff';
+  src: url('/fonts/bm_hanna.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Colonna MT', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-customGold {
+  background-color: #FFFF00;
+  background-image: url('/images/GeaR White.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.bg-customGoldo {
+  background-color: #FFFF00;
+  background-size: contain;
+  background-position: center;
+}
+
+.bg-customLightGold {
+  background-color: #FFFF5B;
+  background-size: contain;
+  background-position: center;
+}
+
+.bg-customBlue {
+  background-color: #4381C1;
+  background-size: contain;
+  background-position: center;
+}
+
+.bg-customLightBlue {
+  background-color: #5993CF;
+  background-size: contain;
+  background-position: center;
+}
+
+.bg-customDarkBlue {
+  background-color: #0064CB;
+  background-size: contain;
+  background-position: center;
+}
+
+
+
+.bg-customPink {
+  background-color: #FFD5FF;
+  background-size: contain;
+  background-position: center;
+}
+
+.bg-customGreen {
+  background-color: #AAC0AF;
+  background-size: contain;
+  background-position: center;
+}
+
+.bg-customRed {
+  background-color: #FFD4CA;
+  background-size: contain;
+  background-position: center;
+}
+
+.border-customDarkBlue{
+  border-color: #0064CB;
+}
+
+.border-customGold{
+  border-color: #FFFF00;
+}
+
+.text-customGold {
+  color: #FFFF00;
+}
+
+.text-customGreen {
+  color: #AAC0AF;
+}
+
+.text-customBlue {
+  color: #4381C1;
+}
+
+.text-customDarkBlue {
+  color: #0064CB;
+}
+
+.text-customPink {
+  color: #FFD5FF;
+}
+
+.text-customRed {
+  color: #FFD4CA;
+}
+
+.text-customDarkRed {
+  color: #4c1c00;
+}
+
+.text-customDarkGold {
+  color: #483f33;
+}
+
+.text-customDarkGreen {
+  color: #61AF3D;
+}
+
+.link-border {
+  border-top: 1px solid #0064CB; /* Indigo-500 */
+}
+
+.bg-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#brand-logo-container {
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+#brand-logo-container.sucked {
+  transform: scale(0.1);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.ad-content {
+  max-height: 50px;
+  animation: pop-up 0.5s forwards;
+}
+.navbar-logo-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-logo {
+  cursor: pointer;
+  max-width: 100px; /* Ensure the logo doesn't expand beyond its intended size */
+  max-height: 50px;
+}
+
+
+.ad-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.animated-image {
+  animation: pop-up 1s ease-in-out;
+}
+
+@keyframes pop-up {
+  from {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+.circle-animation {
+  animation: pulse 2s infinite;
+}
+
+/* Testimonials globals.css */ 
+
+.testimonialsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  background-color: #4381C1;
+}
+
+.heading {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.circlesWrapper {
+  width: 80%;
+  max-width: 800px;
+  overflow-x: auto;
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  white-space: nowrap;
+  margin-bottom: 40px;
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #D2B48C transparent; /* For Firefox */
+}
+
+.circlesWrapper::-webkit-scrollbar {
+  height: 4px; /* Adjust the height of the scrollbar */
+}
+
+.circlesWrapper::-webkit-scrollbar-track {
+  background: transparent; /* Make the track transparent */
+}
+
+.circlesWrapper::-webkit-scrollbar-thumb {
+  background-color: #D2B48C; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners for the scrollbar thumb */
+}
+
+.circlesContainer {
+  display: flex;
+  gap: 20px;
+  height: 120px; /* Ensure enough height to avoid vertical scroll */
+  align-items: center;
+  justify-content: center;
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.circle.active {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.circleContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circleContent p {
+  margin: 0;
+}
+
+.cardContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 600px;
+  border: 1px solid #ddd;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.imageContainer {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.imageContainer img {
+  max-width: 100%;
+  max-height: 100%;
+  border: 5px solid #ddd;
+  border-radius: 10px;
+}
+
+.instagram {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #555;
+}
+
+
+/* globals.css */
+
+.productsTestimonialsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  width: 600px;
+  border: 1px solid #ddd;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.imageContainer {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.imageContainer img {
+  max-width: 100%;
+  max-height: 100%;
+  border: 5px solid #ddd;
+  border-radius: 10px;
+}
+
+.instagram {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Add the following CSS to your globals.css */
+
+.link-border {
+  border-top: 2px solid var(--customDarkBlue);
+}
+
+.link-active {
+  background-color: var(--customLightBlue);
+  color: var(--customGold);
+  border-color: var(--customGold);
+  z-index: 20;
+}
+
+
+.selected-link {
+  z-index: 10; /* Ensure the selected link is on top */
+}
+
+/* Ensure border between slots is only one line */
+.flex > :not(:last-child) {
+  border-bottom-width: 1px;
+}
+
+/* globals.css */
+
+/* Example: Ensuring no borders/margins affect the "My Account" text */
+.no-border {
+  border: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.ticket-card {
+  background: linear-gradient(135deg, #FFFF00 0%, #FFFF5B 100%);
+  border-radius: 0px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  height: 200px;
+}
+
+.ticket-card::before,
+.ticket-card::after {
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.ticket-card::before {
+  top: -20px;
+  left: -20px;
+}
+
+.ticket-card::after {
+  bottom: -20px;
+  right: -20px;
+}
+
+.ticket-card img {
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.ticket-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.ticket-points {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4381C1;
+  margin-right: 20px;
+}
+
+.ticket-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.ticket-image {
+  width: 50%;
+  position: relative;
+}
+
+.ticket-image img {
+  border-radius: 15px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.ticket-info {
+  padding: 10px;
+  color: #61AF3D;
+}
+
+/* globals.css */
+
+.font-bm-hanna {
+  font-family: 'bm hanna_tff';
+}
